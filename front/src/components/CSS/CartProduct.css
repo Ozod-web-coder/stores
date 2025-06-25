@@ -1,0 +1,142 @@
+.cart-product {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+}
+
+.cart-image {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.cart-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-info-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+
+.cart-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.cart-description {
+    font-size: 14px;
+    color: #64748b;
+    width: 500px;
+    line-height: 1.4;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.cart-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: auto;
+    width: 400px;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.quantity{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    color: #1e293b;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.quantity-button{
+    border: 1px solid #43566a;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.quantity-button:hover{
+    background-color: #cbd5e1;
+}
+
+.quantity-value{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #43566a;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.cart-delete{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #43566a;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #c11212;
+}
+
+
+.quantity:hover .cart-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+.cart-message{
+    display: none;
+    position: absolute;
+    height: 30px;
+    font-size: 24px;
+
+    background-color: #8f1c1c;
+    border: 1px solid #ccc;
+    z-index: 100;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

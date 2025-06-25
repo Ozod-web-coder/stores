@@ -1,0 +1,19 @@
+.container {
+    width: 1810px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 400px;
+
+}
+
+.products{
+    display: flex;
+    width: 1550px;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 44px;
+    padding: 14px;
+    margin-left: 20px;
+}
