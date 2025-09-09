@@ -12,8 +12,8 @@ export default function ProductCard({item}) {
 
     function handleClick2() {
         axios.post('http://localhost:8000/cartitem/',
-            { product: item.id, quantity: 1 },  // тело запроса
-            {                                   // опции, включая headers
+            { product: item.id, quantity: 1 }, 
+            {                                   
                 headers: {
                     'Authorization': `Bearer ${token}`,
                     'Content-Type': 'application/json'
