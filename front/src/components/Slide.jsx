@@ -5,7 +5,7 @@ const slides = [
     'https://images.uzum.uz/d18eili7s4fup34aaa40/main_page_banner.jpg',
     'https://images.uzum.uz/d18ekaq7s4fup34aaa90/main_page_banner.jpg',
     'https://images.uzum.uz/d18g7qgn274lpu39ps10/main_page_banner.jpg',
-    // добавь нужные изображения
+    
 ];
 
 export default function Slide() {
